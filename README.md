@@ -20,3 +20,12 @@ Arendo HRM
 and statsd.
 
 It's not meant for anything other than fun!
+
+## How do I install it?
+
+First you'll need to install the ble library above.  It's not in pip yet, so
+you'll need to follow the installation instructions there before you can run
+this script.
+
+After that, just update the hr2statsd.py file to point to your statsd server,
+and run it in the background with `./hr2statsd.py &`
